@@ -1,9 +1,28 @@
 
 # calculus
 
+**考研数学考察的是你是否有一个基本的数学思维和利用数学工具解决问题的能力，而不是搞数学研究成为数学家的能力。**
+**只要你理解一种数学工具，并知道如何使用，出题人不会强人所难。**
+
+****
+
 ## 等价无穷小
 
 ![alt text](image-1.png)
+
+## 常见的泰勒展开
+
+$$sin(x)=x-\frac{1}{6}x^3+o(x^3)$$
+
+$$sin^{-1}(x)=x+\frac{1}{6}x^3+o(x^3)$$
+
+$$tan(x)=x+\frac{1}{3}x^3+o(x^3)$$
+
+$$tan^{-1}(x)=x-\frac{1}{3}x^3+o(x^3)$$
+
+$$cos(x)=1-\frac{1}{2}x^2+\frac{1}{24}x^4+o(x^4)$$
+
+$$ln(1+x)=x-\frac{1}{2}x^2+\frac{1}{3}x^3+o(x^3)$$
 
 ## 三角恒等
 
@@ -212,6 +231,12 @@ $$f''(x)=2 \quad \int\int g(x)dx^2 = -sin(x)$$
 
 $$f'''(x)=0 \quad \int\int\int g(x)dx^3 = cos(x)$$
 
+将其对应起来，并填上正负号，我们得到
+
+$$-x^2cos(x)- [-2xsin(x)]+[2cos(x)]$$
+
+$$=-x^2cos(x)+2xsin(x)+2cos(x)+C$$
+
 ## 数列
 
 ### 形式
@@ -280,3 +305,32 @@ $$\frac{a+b}{2} \ge \sqrt{ab}$$
 * 对于函数连续，有一个方便的定义
 
 $$\lim\limits_{x \to x_0} [f(x) - f(x_0)] = 0$$
+
+### 夹逼准则
+
+1. 放缩法
+
+对于 $$\sum\limits_{i=0}^{n}a_n$$ 在无穷多项相加时，存在以下的不等式关系 $$n \cdot a_{min} \le \sum\limits_{i=0}^{n}a_n \le n \cdot a_{max}$$
+
+若参与相加的为有限个项，存在以下的关系
+
+$$a_i \ge 0, \enspace a_{max} \le \sum\limits_{i=0}^{n}a_n \le n \cdot a_{max}$$
+
+### 重要不等式
+
+1. $a, b \in R, \quad |a \pm b| \le |a| + |b|$
+2. $\sqrt{ab} \le \frac{a+b}{2}, \quad a,b \ge 0$
+3. $0<a<x<b, \enspace 0<c<y<d, \enspace \frac{c}{b}<\frac{y}{x}<\frac{d}{a}$
+4. $x \in (0,\frac{\pi}{2}), \quad sin(x)<x<tan(x)$
+5. $sin(x)<x, \quad x > 0$
+6. $tan^{-1}(x) \le sin^{-1}(x), \quad x \in [0,1]$
+7. $e^x \ge x+1, \quad \forall x$
+8. $x-1 \ge ln(x), \quad x > 0$
+9. $\frac{1}{1+x}<ln(1+\frac{1}{x})<\frac{1}{x}$
+
+### 重要结论
+
+* 对于递推关系定义的数列，递推函数的增长速度至少要大于$f(x)=x$，才能使数列增长
+
+### 单调有界定理
+
