@@ -250,7 +250,7 @@ struct TreeNode
 
 ### &emsp;&emsp; 2-EX 并查集 (太简单了略)
 
- ![alt text](image.png)
+![alt text](image.png)
 
 ## &emsp; 3-图
 
@@ -272,7 +272,6 @@ $$V_!={A, B, C, D, E}$$
 
 $$E_1={<A, B>, <A, C>, <A, D>, ...}$$
 
-![alt text](image-2.png)
 
 * 无向图
 
@@ -287,7 +286,7 @@ $$E_1={<A, B>, <A, C>, <A, D>, ...}$$
 
 #### &emsp;&emsp; 顶点-顶点关系
 
-![alt text](image-3.png)
+![alt text](image-2.png)
 
 * 任意两个顶点都连通：连通图，否则：非连通图
 * 任意两个顶点都强连通：强连通图
@@ -300,13 +299,9 @@ $$E_1={<A, B>, <A, C>, <A, D>, ...}$$
 &emsp;&emsp;&emsp; 若$G$是强连通图，则最少有$n$条边，
 &emsp;&emsp;&emsp; 若$G$是非连通图，则最多可能有$C_{n-1}^2$ 条边
 
-![alt text](image-4.png)
-
 ### &emsp;&emsp; 图的存储
 
 #### &emsp;&emsp; 邻接矩阵法
-
-![alt text](image-5.png)
 
 &emsp;&emsp;&emsp; 对于邻接矩阵$X$，$A^n$的元素$A^n[i][j]$为从顶点$i$到顶点$j$的，长度为$n$的路径的数目
 
@@ -314,7 +309,7 @@ $$E_1={<A, B>, <A, C>, <A, D>, ...}$$
 
 ### 图的基本操作
 
-![alt text](image-6.png)
+![alt text](image-3.png)
 
 ### BFS
 

@@ -106,4 +106,17 @@ uint32_t quick_mul(uint32_t x, uint32_t y)
 
 ![alt text](image-15.png)
 
-## 
+## DRAM(主存)的原理
+
+(合着RAM真就是每个存储单元配译码器的一根线呗)
+
+![alt text](image-16.png)
+
+## DRAM和SRAM
+
+* SRAM: 以双稳态触发器构成，造价高，速度快，用于CPU高速缓存
+* DRAM: 以栅极电容电力构成，造价低，容量大，用于主存
+
+## 提高主存速度的方法
+
+![alt text](image-17.png)
