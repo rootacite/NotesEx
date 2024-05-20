@@ -162,8 +162,18 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 * 数据结构(树、图)复习
 * 李林(9)
 
+### 总结: 问心无愧
+
 # 19th
 
 * 数据结构可视化初步
 
 # 20th
+
+* 数据可视化: Dragable
+* 数据可视化: Connection
+* 数据可视化: TreeNode
+* 李林 (10)
+* OCL电路修复
+
+### 总结: 问心无愧

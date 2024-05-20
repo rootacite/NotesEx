@@ -373,3 +373,7 @@ $$a_i \ge 0, \enspace a_{max} \le \sum\limits_{i=0}^{n}a_n \le n \cdot a_{max}$$
 
 1. 凸函数: $f''(x) \ge 0$
 2. 凹函数: $f''(x) \le 0$
+
+## 一元函数微分学深入
+
+### 渐近线
