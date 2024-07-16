@@ -106,11 +106,11 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 
 ### 总结: 问心无愧
 
-# 12th
+## 12th
 
 * 积分表示法
 
-# 13th
+## 13th
 
 * 定积分——第一类换元法
 * 定积分——分部积分法
@@ -118,7 +118,7 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 
 ### 总结: 问心无愧
 
-# 14th
+## 14th
 
 * 浮点数
 * IEEE
@@ -128,7 +128,7 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 
 ### 总结: 问心无愧
 
-# 15th
+## 15th
 
 * 分部积分法深入(列表法)
 * 数列初步
@@ -138,7 +138,7 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 
 ### 总结: 问心无愧
 
-# 16th
+## 16th
 
 * 数列深入(夹逼准则)
 * 放缩法与重要不等式
@@ -147,7 +147,7 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 
 ### “因为徐畅开了三个小时会，今天差点问心有愧”
 
-# 17th
+## 17th
 
 * 李林 (8,9)
 * 中值定理深入
@@ -156,7 +156,7 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 
 ### 总结: 问心无愧
 
-# 18th
+## 18th
 
 * 多体存储器
 * 数据结构(树、图)复习
@@ -164,11 +164,11 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 
 ### 总结: 问心无愧
 
-# 19th
+## 19th
 
 * 数据结构可视化初步
 
-# 20th
+## 20th
 
 * 数据可视化: Dragable
 * 数据可视化: Connection
@@ -177,3 +177,146 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 * OCL电路修复
 
 ### 总结: 问心无愧
+
+## 21th
+
+* HHD、SSD
+* Cache
+* 修复电路 (失败)
+
+## 22th
+
+* Cache 深入
+* 李林 (11)
+* 修复电路 (成功) 明天消振
+
+## 23th
+
+* 电路消振
+* 单声道修复成功
+
+## 24th
+
+* 电路修复完全成功
+* Cache深入(三种映射方式)
+* Cache替换策略
+* Cache写策略
+* 互斥&同步&前驱(复习)
+
+### 总结: 问心无愧
+
+## 25th
+
+* 页式存储
+* 虚拟内存
+* 指令系统
+* 指令编码概述
+* 指令格式
+* 扩展操作码
+* 指令寻址
+* 数据访问概述
+
+### 总结: 问心无愧
+
+## 26th
+
+* 汇编语言(复习)
+* CPU
+
+## 27th
+
+### PLC实习 问心有愧
+
+## 28th
+
+### PLC实习 问心有愧
+
+## 29th
+
+### PLC实习 问心有愧
+
+## 30th
+
+### PLC实习 问心有愧
+
+## 31th
+
+* 李林(12)
+* 控制器(CU)
+* 指令周期流程
+
+# June
+
+## 1th
+
+* 数据通路
+* 硬布线控制器
+* 微命令与微操作
+
+## 2th
+
+* 机器周期 II
+* 操作码译码器
+* 硬布线三原则
+
+## 3th
+
+* PLC基础
+
+## 4th
+
+* PLC基础
+
+## 5th
+
+* 计网3.4
+
+## 6th
+
+* 计算机网络深入(数据链路)
+
+## 7th & 8th
+
+* 可靠数据传输协议的构建(完成)
+* 速率与时延与吞吐量
+* 流水线传输初步
+
+## 9th
+
+* TCP链接
+* 回退N步(GBN)协议
+* 选择重发(SR)
+* TCP报文段结构
+
+## 10th
+
+* TCP 抓包实验
+
+## 11th
+
+* LWIP Socket DGRAM
+* LWIP 多路复用
+* UDP广播
+
+## 12th
+
+* stm32h7 ETH外设
+* stm32h7 DCache
+* MPU
+* stm32h7 Cache与DMA冲突的解决
+
+## 13th->17th
+
+* Unity
+
+## 18th->30th
+
+* 模电课设
+
+# July
+
+# 15th
+
+* 中值定理回顾
+* 计算机系统：内存布局深入
+* Bluetooth技术HID

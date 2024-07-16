@@ -187,6 +187,38 @@ int main() {
 }
 ```
 
+### epoll
+
+#### epoll_create1
+
+```cpp
+extern int epoll_create1 (int __flags)
+```
+
+简单来说，如果把flags参数填0，这个函数的效果就和删除了size参数的epoll_create函数一模一样。
+若调用成功，函数会返回一个文件描述符，对应着刚刚创建的epoll实体。
+
+#### epoll_ctl
+
+```cpp
+int epoll_ctl(int epfd, int op, int fd, struct epoll_event *_Nullable event);
+// epfd: epoll entity
+// op: can be EPOLL_CTL_ADD, EPOLL_CTL_MOD, EPOLL_CTL_DEL
+// fd: you know
+// enent: such as EPOLLIN, EPOLLOUT
+```
+
+向一个epoll实体中添加/删除/修改一个fd设置。
+顺带一提，为epoll传入的epoll_event指针所指的内存并不会被系统修改。
+
+#### epoll_wait&epoll_pwait
+
+```cpp
+int epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout);
+// epfd: epoll entity
+// events: the array to recevie 
+```
+
 ### mmap&munmap&mprotect&msync (mman系列)
 
 #### mmap
@@ -257,4 +289,6 @@ if (msync(addr, len, MS_ASYNC) == -1)
 
 ## 内存管理篇
 
-### 
+## 多线程
+
+### pthread

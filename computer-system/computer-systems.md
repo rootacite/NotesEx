@@ -344,23 +344,20 @@ $$平均周转时间=\frac{周转时间和}{作业数}$$
 
 $$带权周转时间=\frac{作业周转时间}{实际运行时间}$$
 
-![alt text](image.png)
-
 * 先来先服务(FCFS)
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 * 短作业优先(SJF)
 
-![alt text](image-2.png)
+![alt text](image-1.png)
 
 * 最高响应比优先(HRRN)
-
-![alt text](image-3.png)
+![alt text](image-2.png)
 
 #### 死锁&饥饿&死循环
 
-![alt text](image-4.png)
+![alt text](image-3.png)
 
 #### 死锁的必要条件
 
@@ -452,6 +449,22 @@ struct sched_entity {
 &emsp;&emsp;&emsp; CFS试图用一个简单的规则去均衡所有进程的运行时间，当CFS需要选择下一个运行进程时，它会挑选一个具有最小vruntime的进程，实际上这就是CFS调度算法的核心。<br>
 &emsp;&emsp;&emsp; 
 
-## &emsp;6.内存管理
+## &emsp;补充6
+
+### 互斥&同步&前驱
+
+* 互斥：这件事同时只能有一个进程在做
+
+本质就是对应同一个信号量的临界区，同时只能有一个进程进入并执行。
+
+* 同步：我做完这件事，你才能做那件事
+
+一个进程必须等待另一个进程完成指定的操作，才能继续执行。
+
+* 前驱：多级同步问题的雅称
+
+![alt text](image-4.png)
+
+## 7.虚拟内存
 
 

@@ -1,3 +1,6 @@
 [submodule "DsVisualization"]
 	path = DsVisualization
 	url = https://github.com/rootacite/DsVisualization
+[submodule "gtk-cairo-learning"]
+	path = gtk-cairo-learning
+	url = https://github.com/rootacite/gtk-cairo-learning

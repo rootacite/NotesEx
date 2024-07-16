@@ -248,6 +248,8 @@ struct TreeNode
 
 #### &emsp;&emsp; 树能被转化为二叉树，具体过程略，别忘了孩子兄弟表示法
 
+###  &emsp;&emsp; 2-8 哈夫曼树
+
 ### &emsp;&emsp; 2-EX 并查集 (太简单了略)
 
 ![alt text](image.png)

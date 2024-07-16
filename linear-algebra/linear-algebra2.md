@@ -153,7 +153,7 @@ $$det(D_4)=2 \cdot det \begin{vmatrix} 2&-1&0\\ 0&2&-1 \\0&0&2\end{vmatrix}+(-1)
 #### Laplace 展开
 
 若$A、B$为$m、n$阶矩阵，则
-$$\begin{vmatrix} A&0\\ 0&B \end{vmatrix} = \begin{vmatrix} A&C\\ 0&B \end{vmatrix}= \begin{vmatrix} A&0\\ C&B \end{vmatrix}  = det(A) + det(B)$$
+$$\begin{vmatrix} A&0\\ 0&B \end{vmatrix} = \begin{vmatrix} A&C\\ 0&B \end{vmatrix}= \begin{vmatrix} A&0\\ C&B \end{vmatrix}  = det(A) \cdot det(B)$$
 
 若交换$A、B$矩阵的位置，则上式等于$(-1)^{nm}det(A)det(B)$。
 
