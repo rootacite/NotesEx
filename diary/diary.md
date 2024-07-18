@@ -320,3 +320,20 @@ double solve(T fun, double value, double begin, double diff = 0.000001)
 * 中值定理回顾
 * 计算机系统：内存布局深入
 * Bluetooth技术HID
+
+# 16th
+
+* 中值定理回顾2
+* 第一类换元回顾
+* GTK 4 学习开始
+* Cairo 学习开始
+* 深入理解Git分支管理
+* 难题 6.5
+
+# 17th
+
+
+* 魔改MicroPython源码
+* esp-joy
+
+# 18th

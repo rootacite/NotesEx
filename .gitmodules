@@ -4,3 +4,6 @@
 [submodule "gtk-cairo-learning"]
 	path = gtk-cairo-learning
 	url = https://github.com/rootacite/gtk-cairo-learning
+[submodule "esp-joy"]
+	path = esp-joy
+	url = https://github.com/rootacite/esp-joy
